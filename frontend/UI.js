@@ -24,7 +24,7 @@ class UI {
                     <div class="card-block px-2">
                         <h4 class="card-title">${book.title}</h4>
                         <p class="card-text">${book.author}</p>
-                        <a href="#" class="btn btn-danger delete" _id="${book._id}" disabled>Eliminar </a>
+                        <a href="#" class="btn btn-danger delete" _id="${book._id}" disabled="disabled">Eliminar </a>
                     </div>
                 </div>
             </div>
